@@ -1,7 +1,7 @@
 import React from 'react'
 import './StartGame.css'
 
-const StartGame = () => {
+const StartGame = ({toggle}) => {
   return (
     <div className='div1'>
         <div>
@@ -9,7 +9,7 @@ const StartGame = () => {
         </div>
         <h1>Dice Game</h1>  
          
-        <button className='btn1'>Play Now</button>
+        <button className='btn1' onClick={toggle}>Play Now</button>
     </div>
   )
 }
