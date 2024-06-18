@@ -1,0 +1,27 @@
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+     border: 1px transparent black;
+     width: 180px;
+     height: 33px;
+     position: relative;
+     top: 70px;
+     
+
+}
+h1{
+    position: relative;
+    left: 160px;
+}
+.img1{ 
+    position: relative;
+    top: 90px;
+}
