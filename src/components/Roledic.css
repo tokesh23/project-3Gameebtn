@@ -1,0 +1,17 @@
+.blackbox{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 150px;
+}
+.imgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    position: relative;
+    right: 110px;
+    bottom: 90px;
+}
